@@ -1,5 +1,5 @@
 class StackExample:
-    def _init_(self):
+    def __init__(self):
         self.stack=[]
     def push(self,data):
         self.stack.append(data)
